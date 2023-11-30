@@ -4,9 +4,10 @@ import App from "./App.jsx";
 import "./index.css";
 import Appy from "./Appy.jsx";
 import Person from "./Person.jsx";
+import Form from "./Form.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Person />
+    <Form />
   </React.StrictMode>
 );
